@@ -8,7 +8,8 @@ import Products from './components/Products'
 import Testimonial from './components/Testimonial'
 import Footer from './components/Footer'
 import Blog from './components/Blog'
-
+import ComplexState from './components/ComplexState'
+import Cart from './components/Cart'
 const App = () => {
   return (
     <div>
@@ -19,6 +20,8 @@ const App = () => {
       <Products />
       <Testimonial />
       <Footer />
+      {/* <ComplexState />
+      <Cart /> */}
 
     </div>    
   );
